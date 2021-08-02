@@ -1,0 +1,115 @@
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* navbar starts here */
+
+.navbar-logo{
+    float: left;
+}
+
+.navbar-heading{
+    float: left;
+}
+
+.navbar-menu{
+    
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-menu a{
+    margin: 5px 10px;
+    padding: 5px;
+    background-color: transparent;
+}
+
+/* navbar ends here */
+
+/* profile design strts here */
+.profile .top-icon{
+    
+    right: 100px;
+    top: 20px;
+    width: 120px;
+    transition: width 1s, transform 2s;
+}
+
+.profile .top-icon:hover{
+    width: 140px;
+}
+
+.profile .bottom-icon{
+    position: absolute;
+    left: 70px;
+    bottom: 20px;
+    width: 120px;
+    transition: width 1s, transform 2s;
+}
+
+.profile .bottom-icon:hover{
+    width: 150px;
+}
+
+.profile-des p{
+    color: gray;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 50px;
+}   
+/* profile design ends here */
+
+
+/* about me starts here */
+
+
+.about-me-img{
+    top: 300px;
+}
+
+
+.aboutme-des p{
+    text-align: left;
+}
+
+
+
+/* about me ends here */
+
+
+
+/* contact me strts here */
+
+.contact button{
+    width: 150px;
+    
+}
+
+.contact-links{
+    position: relative;
+}
+
+.media-btn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 250px;
+    transform: translate(-50%,-50%);
+}
+
+/* contact me strts here */
+
+
+.footer-menu a{
+    display: inline;
+}
